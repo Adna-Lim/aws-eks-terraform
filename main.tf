@@ -60,7 +60,7 @@ module "eks" {
   cluster_version = "1.32"
 
   # this allows public access to the cluster's API for testing purposes.
-  # for prod envrionment, set this to false and use a secure private endpoint. Access should be managed through a bastion host or VPN for enhanced security
+  # for prod environment, set this to false and use a secure private endpoint. Access should be managed through a bastion host or VPN for enhanced security
   cluster_endpoint_public_access           = true
 
   # grants the cluster creator admin permissions on the EKS cluster for testing purposes.
