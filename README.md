@@ -40,6 +40,21 @@ Once the Terraform deployment is complete, the following information will be out
 - Cluster Name
 - NGINX Ingress Load Balancer Hostname
 
+Deployed Resources:
+
+<p align="left">
+<img src="images/eks.png" alt="image" style="width:550px;"/>
+</p>
+
+<p align="left">
+<img src="images/node_groups.png" alt="image" style="width:550px;"/>
+</p>
+
+<p align="left">
+<img src="images/nginx_ingress.png" alt="image" style="width:550px;"/>
+</p>
+
+
 After deployment, retrieve the Kubernetes config with the following command:
 ```
 aws eks --region <your-region> update-kubeconfig --name <eks-cluster-name>
